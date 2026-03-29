@@ -1,4 +1,4 @@
-import { Clock, MapPin, Phone, Instagram, ShieldCheck, TrendingUp, Map } from 'lucide-react'
+import { Clock, MapPin, Phone, AtSign, ShieldCheck, TrendingUp, Map } from 'lucide-react'
 import { whatsappLink, mapsLink } from '../data/siteData'
 
 export default function ContactSection() {
@@ -12,7 +12,7 @@ export default function ContactSection() {
           <div className="mt-6 space-y-3 text-slate-700">
             <p className="flex items-center gap-2 text-sm"><MapPin className="h-5 w-5 text-orange-400" /> Av. Sarmiento 215, San Rafael, Mendoza</p>
             <p className="flex items-center gap-2 text-sm"><Phone className="h-5 w-5 text-orange-400" /> +54 9 2604 63-3885</p>
-            <p className="flex items-center gap-2 text-sm"><Instagram className="h-5 w-5 text-orange-400" /> @samainmobiliaria_sr</p>
+            <p className="flex items-center gap-2 text-sm"><AtSign className="h-5 w-5 text-orange-400" /> @samainmobiliaria_sr</p>
           </div>
           <div className="mt-6 flex flex-wrap gap-3">
             <a href={whatsappLink} className="inline-flex items-center gap-2 rounded-full bg-emerald-500 px-4 py-2 text-sm font-bold text-white hover:bg-emerald-400" target="_blank" rel="noreferrer">

@@ -1,4 +1,4 @@
-import { Map, Phone, Instagram } from 'lucide-react'
+import { Map, Phone, ExternalLink } from 'lucide-react'
 import { whatsappLink } from '../data/siteData'
 
 export default function Footer() {
@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="flex flex-wrap justify-center gap-3 text-sm md:justify-end">
           <a href={whatsappLink} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 rounded-full bg-emerald-100 px-3 py-1.5 text-emerald-700 hover:bg-emerald-200"><Phone className="h-4 w-4" /> WhatsApp</a>
           <a href="https://www.google.com/maps/place/Julio+Sama+Inmobiliaria+San+Rafael" target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 rounded-full bg-sky-100 px-3 py-1.5 text-sky-700 hover:bg-sky-200"><Map className="h-4 w-4" /> Google Maps</a>
-          <a href="https://www.instagram.com/samainmobiliaria_sr" target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 rounded-full bg-pink-100 px-3 py-1.5 text-pink-700 hover:bg-pink-200"><Instagram className="h-4 w-4" /> @samainmobiliaria_sr</a>
+          <a href="https://www.instagram.com/samainmobiliaria_sr" target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 rounded-full bg-pink-100 px-3 py-1.5 text-pink-700 hover:bg-pink-200"><ExternalLink className="h-4 w-4" /> @samainmobiliaria_sr</a>
         </div>
       </div>
       <div className="mt-4 text-center text-xs text-slate-500">© {new Date().getFullYear()} Julio Sama Inmobiliaria. Todos los derechos reservados.</div>
